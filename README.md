@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Travel Testimonial Platform
 
-## Getting Started
+A web application for users to submit and view verified travel testimonials, ensuring authenticity and safety in the travel community.
 
-First, run the development server:
+## 🚀 Features
+- Submit and view testimonials for travel creators and agencies.
+- Verified reviews to ensure trust and transparency.
+- User-friendly interface with seamless navigation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack
+- **Frontend:** Next.js  
+- **Backend:** Prisma  
+- **Database:** PostgreSQL  
+- **Styling:** Tailwind CSS & shadcn/ui  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Getting Started
+### Prerequisites
+- Node.js (v14 or higher)
+- PostgreSQL installed and running
+- Yarn or npm package manager
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
+1. **Clone the repository:**  
+   `git clone https://github.com/aarushikapoor2004/travel-x-main.git`
+2. **Navigate to the project directory:**  
+   `cd travel-testimonial-platform`
+3. **Install dependencies:**  
+   `npm install` or `yarn install`
+4. **Set up environment variables:**  
+   Create a `.env` file and add your database URL:  
+   `DATABASE_URL=postgresql://USER:PASSWORD@localhost:5432/DATABASE_NAME`
+5. **Run Prisma migrations:**  
+   `npx prisma migrate dev --name init`
+6. **Start the development server:**  
+   `npm run dev` or `yarn dev`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📝 Usage
+- **Submit Testimonials:** Users can submit verified testimonials for travel agencies and creators.
+- **View Testimonials:** Browse through verified user reviews and experiences.
 
-## Learn More
+## 💡 Future Improvements
+- Implement user authentication.
+- Add rating system alongside testimonials.
+- Enhance search and filter capabilities.
 
-To learn more about Next.js, take a look at the following resources:
+## 🧑‍💻 Contributing
+1. Fork the project.  
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`.  
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`.  
+4. Push to the branch: `git push origin feature/AmazingFeature`.  
+5. Open a pull request.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛡️ License
+This project is licensed under the MIT License.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
+🚀 Made with ❤️ using **Next.js**, **Prisma**, **PostgreSQL**, **Tailwind CSS**, and **shadcn/ui**.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
